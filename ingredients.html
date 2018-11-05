@@ -1,0 +1,56 @@
+<!doctype html>
+<!-- Cook by Ingredients page -->
+
+<html>
+
+<head>
+  <title>Cook by Ingredients</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/ing_style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="logos">
+    <a href="index.html">
+      <img src="img/home-button.png" id="home" />
+    </a>
+
+    <a href="profile.html"/>
+      <img src="img/profile-button.png" id="profile" />
+    </a>
+
+      <a href="javascript:history.back()">
+        <img src="img/back-button.png" id="back" onclick="goback"/>
+      </a>
+  </div>
+
+  <br/> <br/>
+
+
+  <!-- input field -->
+  <div class="buttons">
+
+    <input type="text" id="ing_input" size="12" placeholder="Type ingredient" title="Type ingredient" />
+    <input type="button" value="Add" id="add" /> <br/>
+
+    <ul id="list_item">
+    </ul>
+    <br/>
+
+  </div>
+
+  <div class="find" >
+    <input type="button" value="Find Recipe" id="start" />
+  </div>
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+  <script src="js/ing_script.js"></script>
+
+</body>
+</html>
