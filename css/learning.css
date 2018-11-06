@@ -9,3 +9,7 @@
 .center-wrapper {
 	text-align: center;
 }
+#custom-border-radius .ui-btn-icon-notext.ui-corner-all {
+    -webkit-border-radius: .3125em;
+    border-radius: .3125em;
+}
