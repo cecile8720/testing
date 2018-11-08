@@ -1,5 +1,6 @@
-.recipe-block {
-	border: solid;
+.recipe-pic img{
+	display: block;
+	margin: auto;
 }
 
 .recipe-description{
@@ -12,4 +13,8 @@
 
 .center-wrapper {
 	text-align: center;
+}
+
+#search {
+	margin-right: 40px;
 }
