@@ -14,3 +14,13 @@
 .center-wrapper {
 	text-align: center;
 }
+
+.present-a {
+	background-color: red;
+	color: white;
+}
+
+.absent {
+	text-decoration: line-through;
+}
+
