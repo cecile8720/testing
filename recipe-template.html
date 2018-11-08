@@ -14,19 +14,24 @@
         <div data-role="header">
             <a href="javascript:history.back()" class="ui-btn ui-shadow ui-corner-all ui-icon-arrow-l ui-btn-icon-notext">Back</a>
             <a data-ajax="false" href="index.html" class="ui-btn-right ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext">Home</a>
-            <a data-ajax="false" class="ui-btn-right ui-btn ui-icon-search ui-btn-icon-notext ui-shadow ui-corner-all" id="search" data-role="button" role="button">Search</a>
+            <a data-ajax="false" class="ui-btn-right ui-btn ui-icon-search ui-btn-icon-notext ui-shadow ui-corner-all" id="search" data-role="button" role="button" style="margin-left: 40px;">Search</a>
             <h1>Recipe Name</h1>
         </div><!-- /header -->
- 
+
         <div role="main" class="ui-content">
+            <!-- Recipe Image -->
             <div class="recipe-pic">
                 <img src="https://placekitten.com/300/200" />
             </div>
 
+            <!-- Time/Difficulty/Favorites -->
             <div class="grid ui-grid-a center-wrapper">
                 <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:20px">~45min</div></div>
                 <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:20px">Easy</div></div>
+            </div>
 
+            <div class="ui-grid-solo">
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a center-wrapper" style="height:20px">Add to Favorites</div></div>
             </div>
 
             <div class="recipe-description ui-body ui-body-a ui-corner-all">
