@@ -4,12 +4,12 @@ $(document).ready(function () {
 	$('.add-items').submit(function(event)
 	{
 		event.preventDefault();
-		var item = $('#todo-list-item').val();
+		var item = $('#input').val();
 		if(item)
 		{
 			$('#list-items').append("<li><input class='checkbox' type='checkbox'/>" + item + "<a class='remove'>x</a><hr></li>");
 			localStorage.setItem('listItems', $('#list-items').html());
-			$('#todo-list-item').val("");
+			$('#input').val("");
 		}
 
 	});

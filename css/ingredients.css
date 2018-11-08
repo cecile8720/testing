@@ -1,13 +1,4 @@
-
-
-.find {
-  width: 100%;
-  position: fixed;
-  bottom: 20px;
-  text-align: center;
-  padding-top: 10px;
-}
-
+/* CSS file for ingredients page */
 
 .contents {
   background: #fff;
@@ -22,29 +13,14 @@
   -ms-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
   -o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
   box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
-
   -webkit-border-radius: 0 0 5px 5px;
   -moz-border-radius: 0 0 5px 5px;
   -ms-border-radius: 0 0 5px 5px;
   -o-border-radius: 0 0 5px 5px;
   border-radius: 0 0 5px 5px;
-  /*
-  margin: 0 auto;
-  min-width: 500px;
-  width: 45%;
-  text-align: left;
-  color: #3b3b3b;
-  font-weight: bold;*/
 }
-/*
-form {
-  outline: 0;
-  height: 36px;
-  margin-top: 5%;
-  border: 3px solid #3b3b3b;
-}*/
 
-#todo-list-item {
+#input {
   border-bottom: 2px solid black;
   display: inline-block;
 }
@@ -55,16 +31,10 @@ input[type="text"] {
   width: 80% !important;
   float: left;
   padding-left: 10px;
-  /*outline: 0;
-  width: 55%;
-  height: 32px;
-  border: none;
-  font-size: 18px;
-  font-weight: normal;
-  padding-left: 10px;*/
 }
+
 .contents input::-webkit-input-placeholder {
-font-style: italic;
+  font-style: italic;
 }
 
 .ui-input-text.ui-custom {
@@ -90,6 +60,8 @@ font-style: italic;
   background-color: #3b3b3b;
 }
 
+input[type="checkbox"] { width: 30px; }
+
 ul {
   margin-top: 70px; /* space between input and first bullet */
   padding: 0;
@@ -101,14 +73,19 @@ ul {
 
 hr {
   border: none;
-    /*border-bottom: solid white;*/
-    margin: 5px 0;
+  margin: 5px 0;
 }
-
-input[type="checkbox"] { width: 30px; }
 
 .remove {
   float: right;
   margin-right: 3px; /* space between bullets */
   cursor: pointer;
+}
+
+.find {
+  width: 100%;
+  position: fixed;
+  bottom: 20px;
+  text-align: center;
+  padding-top: 10px;
 }
