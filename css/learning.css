@@ -14,3 +14,8 @@
 	border-top-width: 1px !important;
 	text-align: center;
 }
+
+#demo-borders .ui-collapsing-heading .ui-btn .listview {
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
