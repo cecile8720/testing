@@ -10,3 +10,4 @@
 .center-wrapper {
 	text-align: center;
 }
+#demo-borders .ui-collapsible-heading .ui-btn { border-top-width: 1px !important; }
