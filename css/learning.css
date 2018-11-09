@@ -12,10 +12,12 @@
 }
 #demo-borders .ui-collapsible-heading .ui-btn {
 	border-top-width: 1px !important;
-	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
 
 #demo-borders .ui-collapsing-heading .ui-btn .listview {
 	border-top-width: 1px;
 	border-bottom-width: 1px;
+	align-content: center;
 }
